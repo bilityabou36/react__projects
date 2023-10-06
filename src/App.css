@@ -140,3 +140,54 @@ input {
 .text-white {
   color: #fff;
 }
+
+/* Styles for the container */
+.container {
+  width: 100%;
+  max-width: 800px; /* Adjust this value to your preference */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Basic button styling */
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Adjust to your preference */
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the buttons */
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Specific colors for each button type */
+.btn-danger {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.btn-success { /* Note: There was a typo in your code (`sucess` should be `success`) */
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #ffffff;
+}
+
+/* For the title component */
+.mb-4 {
+  margin-bottom: 16px; /* 1rem or 16px if you're using a standard browser setting for 1rem */
+}
